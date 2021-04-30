@@ -68,11 +68,11 @@ S1C: 현재 survivor 1 용량 (KB).
 
 S0U: survivor 0에서 사용 중인 용량 (KB).
 
-S1U: Survivor space 1 utilization (KB).
+S1U: survivor 1에서 사용 중인 용량 (KB).
 
-EC: Current eden space capacity (KB).
+EC: 현재 Eden 용량 (KB).
 
-EU: Eden space utilization (KB).
+EU: Eden에서 사용 중인 용량 (KB).
 
 OC: Current old space capacity (KB).
 
