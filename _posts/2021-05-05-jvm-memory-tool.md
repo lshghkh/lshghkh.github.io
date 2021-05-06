@@ -14,11 +14,9 @@ comments: true
 	* [옵션](#옵션-1)
 		* [일반 옵션](#일반-옵션)
 			* [`-class` : Class loader 통계](#-class--class-loader-통계)
-			* [..'C' 와 ..'U'](#c-와-u)
 			* [`-gc` option: GC에 의해 관리된 heap 통계 출력](#-gc-option-gc에-의해-관리된-heap-통계-출력)
-			* [-gcutil option: garbage collection 통계를 요약하여 출력](#-gcutil-option-garbage-collection-통계를-요약하여-출력)
-			* [..'MN' 과 ..'MX'](#mn-과-mx)
-			* [-gccapacity option: Memory pool generation 과 space capacity 의 정보 출력](#-gccapacity-option-memory-pool-generation-과-space-capacity-의-정보-출력)
+			* [`-gcutil` option: garbage collection 통계를 요약하여 출력](#-gcutil-option-garbage-collection-통계를-요약하여-출력)
+			* [`-gccapacity` option: Memory pool generation 과 space capacity 의 정보 출력](#-gccapacity-option-memory-pool-generation-과-space-capacity-의-정보-출력)
 		* [출력 옵션](#출력-옵션)
 * [참고자료](#참고자료)
 
@@ -78,7 +76,7 @@ Time: 클래스 로딩과 언로딩을 하는 데 걸린 시간
 
 ---
 
-##### ..'C' 와 ..'U'
+###### ..'C' 와 ..'U'
 
 ..'C': 어떤 영역이 현재 차지하는 용량, capacity를 의미한다. 단위는 KB.
     - 예를 들어, EC: Eden Capacity, OC: Old space Capacity
@@ -114,7 +112,7 @@ CGCT: Concurrent GC의 총 실행시간
 
 GCT: 전체 GC의 총 실행시간 
 
-##### -gcutil option: garbage collection 통계를 요약하여 출력
+##### `-gcutil` option: garbage collection 통계를 요약하여 출력
 S0: S0의 사용률, (= S0U / S0C * 100)
 
 S1: S1의 사용률
@@ -137,12 +135,12 @@ FGCT: Full GC의 총 실행시간
 
 GCT: 전체 GC의 총 실행시간 
 
-##### ..'MN' 과 ..'MX'
+###### ..'MN' 과 ..'MX'
 ..'MN': 최소 용량. 단위는 KB
 
 ..'MX': 최대 용량. 단위는 KB
 
-##### -gccapacity option: Memory pool generation 과 space capacity 의 정보 출력
+##### `-gccapacity` option: Memory pool generation 과 space capacity 의 정보 출력
 
 NGC(MN/MX): new generation 의 용량 정보
     - NGC: 현재 용량
