@@ -7,6 +7,20 @@ comments: true
 ---
 
 ###### 목차
+* [Monitoring Tools](#monitoring-tools)
+* [jps](#jps)
+	* [옵션](#옵션)
+* [jstat](#jstat)
+	* [옵션](#옵션-1)
+		* [일반 옵션](#일반-옵션)
+			* [`-class` : Class loader 통계](#-class--class-loader-통계)
+			* [..'C' 와 ..'U'](#c-와-u)
+			* [`-gc` option: GC에 의해 관리된 heap 통계 출력](#-gc-option-gc에-의해-관리된-heap-통계-출력)
+			* [-gcutil option: garbage collection 통계를 요약하여 출력](#-gcutil-option-garbage-collection-통계를-요약하여-출력)
+			* [..'MN' 과 ..'MX'](#mn-과-mx)
+			* [-gccapacity option: Memory pool generation 과 space capacity 의 정보 출력](#-gccapacity-option-memory-pool-generation-과-space-capacity-의-정보-출력)
+		* [출력 옵션](#출력-옵션)
+* [참고자료](#참고자료)
 
 ---
 
