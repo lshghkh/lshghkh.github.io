@@ -80,6 +80,7 @@ Time: 클래스 로딩과 언로딩을 하는 데 걸린 시간
 ..'U': 어떤 영역에서 현재 실제로 사용 중인 용량을 말한다. 마찬가지로 단위는 KB.
     - 예를 들어, EU: Eden Utilization, OU: Old space Utilization
 
+---
 #### `-gc`: GC에 의해 관리된 heap 통계 출력
 
 S0C/U: 현재 survivor 0 의 정보
@@ -108,6 +109,7 @@ CGCT: Concurrent GC의 총 실행시간
 
 GCT: 전체 GC의 총 실행시간 
 
+---
 #### `-gcutil`: garbage collection 통계를 요약하여 출력
 S0: S0의 사용률, (= S0U / S0C * 100)
 
@@ -131,11 +133,13 @@ FGCT: Full GC의 총 실행시간
 
 GCT: 전체 GC의 총 실행시간 
 
+---
 ###### ..'MN' 과 ..'MX'
 ..'MN': 최소 용량. 단위는 KB
 
 ..'MX': 최대 용량. 단위는 KB
 
+---
 #### `-gccapacity`: Memory pool generation 과 space capacity 의 정보 출력
 
 NGC(MN/MX): new generation 의 용량 정보
@@ -165,6 +169,7 @@ FGC: Full GC의 횟수
 
 - 이외에도 `-gccause`, `-gcnew`, `-gcnewcapacity` 등이 있다. 자세한 설명은 하단의 공식문서 참고.
 
+---
 ### 출력 옵션
 
 `-t`: 실행시간을 나타내는 timestamp 열을 가장 왼쪽에 출력한다.  
